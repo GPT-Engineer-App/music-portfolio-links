@@ -7,10 +7,10 @@ const Index = () => {
     <Box bg="red" minH="100vh" py={8}>
       <VStack spacing={8}>
         <Image src="https://images.unsplash.com/photo-1659150140178-d672b4763fd0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxtdXNpY2lhbiUyMHBvcnRyYWl0fGVufDB8fHx8MTcxMDQ2MjMwOHww&ixlib=rb-4.0.3&q=80&w=1080" alt="Musician Portrait" borderRadius="full" boxSize="200px" />
-        <Heading as="h1" size="2xl">
+        <Heading as="h1" size="2xl" color="white">
           2star
         </Heading>
-        <Text fontSize="xl" textAlign="center" maxW="500px">
+        <Text fontSize="xl" textAlign="center" maxW="500px" color="white">
           Welcome to my personal music portfolio website. Check out my music on various platforms and connect with me on social media!
         </Text>
         <HStack spacing={4}>
